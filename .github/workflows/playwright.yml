@@ -4,7 +4,7 @@ on:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
-    repository_dispatch:
+  repository_dispatch:
     types: [trigger-webhook]
 jobs:
   test:
