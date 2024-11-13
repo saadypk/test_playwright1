@@ -23,7 +23,7 @@ test('fail login', async ({ page }) => {
     const loginPage = new LoginPage(page);
 
     await page.goto("http://hoff.is/login")
-    await loginPage.login("Markus", password, 'consumer');
+    await loginPage.login("Markus", "sup3rs3cr3", 'consumer');
     const errorMessage = await loginPage.errorMessage.textContent()
 
     expect(errorMessage).toBe("Incorrect password")
