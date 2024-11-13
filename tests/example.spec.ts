@@ -5,7 +5,7 @@ test('has title', async ({ page }) => {
   console.log("The value is: "+process.env.PASSWORD);
 
   // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  await expect(page).toHaveTitle(/Playjghjwright/);
 });
 
 test('get started link', async ({ page }) => {
