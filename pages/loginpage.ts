@@ -18,7 +18,7 @@ export class LoginPage {
     }
 
     async login(username: string, password: string, chooseUsertype: string){
-        await this.usernameInput.fill(username)
+        await this.usernameInput.fill(username, {timeout: 15000})
         await this.passwordInput.fill(password)
         await this.chooseUsertype.selectOption(chooseUsertype)
         await this.submitButton.click()

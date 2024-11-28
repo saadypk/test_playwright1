@@ -12,7 +12,7 @@ test('Login with Markus', async ({ page }) => {
     }
 
     await page.goto("http://hoff.is/login")
-    await loginPage.login("Markus", password, 'consumer');
+    await loginPage.login("Markus", "sup3rs3cr3t", 'consumer');
     const header = await storePage.header.textContent()
 
     expect(header).toBe("Store")

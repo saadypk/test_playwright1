@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "username",
+      "value": "Saad",
+      "domain": "hoff.is",
+      "path": "/",
+      "expires": 1733416921,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "role",
+      "value": "business",
+      "domain": "hoff.is",
+      "path": "/",
+      "expires": 1733416921,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
